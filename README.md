@@ -3,6 +3,12 @@
 This is a system made for gathering outdoor data on humidity, temperature, and such.  
 It consists of a physical part with connecting components and a coding part.
 
+Parts I used:
+- Raspberry Pi 3b+
+- Arduino pro mini
+- AM2301 sensor 
+- 2x NRF24L01+ 
+
 ## Physical part
 
 ### Sensor side

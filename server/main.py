@@ -5,7 +5,6 @@ import time
 import struct
 import traceback
 from datetime import datetime
-
 import pigpio
 from nrf24 import (
     NRF24,

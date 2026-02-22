@@ -17,7 +17,6 @@ static const uint8_t RETRY_COUNT = 5;
 static const uint8_t PAYLOAD_CAP = 32;
 static const uint8_t PROTOCOL_ID = 0x01;
 
-// The devices
 RF24 radio(RF24_CE_PIN, RF24_CSN_PIN);
 DHT  sensor(15, DHT21);
 

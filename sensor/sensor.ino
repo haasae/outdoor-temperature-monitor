@@ -3,7 +3,6 @@
 #include <nRF24L01.h>
 #include "LowPower.h"
 
-// PIN & radio config
 static const uint8_t RF24_CSN_PIN = 10;
 static const uint8_t RF24_CE_PIN  = 14;
 
@@ -38,7 +37,7 @@ void setup() {
 
 void loop() {
   // Read sensors
-  sensor.begin(); // keeping this to match original behavior
+  sensor.begin(); 
   const float hum = sensor.readHumidity();
   const float tmp = sensor.readTemperature();
 
